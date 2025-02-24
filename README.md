@@ -177,3 +177,10 @@ URLs:
     internet_identity: https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.icp0.io/?id=5jw7w-wiaaa-aaaab-qacza-cai
     todo_app_backend: https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.icp0.io/?id=54ro3-xaaaa-aaaab-qac2q-cai
 ```
+
+キャニスターを実行
+![](./docs/img/スクリーンショット%202025-02-24%2022-10-38.jpg)
+
+Internet Identityにログインした後でキャニスターを実行  
+IIのIDが取得できている
+![](./docs/img/スクリーンショット%202025-02-24%2022-14-15.jpg)
