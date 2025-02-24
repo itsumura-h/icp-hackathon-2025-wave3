@@ -184,3 +184,32 @@ URLs:
 Internet Identityにログインした後でキャニスターを実行  
 IIのIDが取得できている
 ![](./docs/img/スクリーンショット%202025-02-24%2022-14-15.jpg)
+
+
+フロントエンドだけを指定すると、デプロイできキャニスターも実行できた
+```sh
+dfx deploy --playground todo_app_frontend
+
+Deploying: todo_app_backend todo_app_frontend
+Reserved canister 'todo_app_backend' with id wqbl4-ayaaa-aaaab-qadga-cai with the playground.
+Reserved canister 'todo_app_frontend' with id w6dgu-3iaaa-aaaab-qadha-cai with the playground.
+Installed code for canister todo_app_backend, with canister ID wqbl4-ayaaa-aaaab-qadga-cai
+WARN: This project does not define a security policy for any assets.
+WARN: You should define a security policy in .ic-assets.json5. For example:
+WARN: [
+WARN:   {
+WARN:     "match": "**/*",
+WARN:     "security_policy": "standard"
+WARN:   }
+WARN: ]
+WARN: To disable the policy warning, define "disable_security_policy_warning": true in .ic-assets.json5.
+Installed code for canister todo_app_frontend, with canister ID w6dgu-3iaaa-aaaab-qadha-cai
+Deployed canisters.
+URLs:
+  Frontend canister via browser:
+    todo_app_frontend: https://w6dgu-3iaaa-aaaab-qadha-cai.icp0.io/
+  Backend canister via Candid interface:
+    todo_app_backend: https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.icp0.io/?id=wqbl4-ayaaa-aaaab-qadga-cai
+```
+
+![](./docs/img/スクリーンショット%202025-02-24%2023-04-35.jpg)
