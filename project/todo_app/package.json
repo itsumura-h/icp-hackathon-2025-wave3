@@ -1,0 +1,19 @@
+{
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "name": "todo_app",
+  "scripts": {
+    "dev": "pnpm --filter todo_app_frontend dev",
+    "build": "pnpm --filter todo_app_frontend build",
+    "prebuild": "pnpm --filter todo_app_frontend prebuild",
+    "pretest": "pnpm --filter todo_app_frontend pretest",
+    "preview": "pnpm --filter todo_app_frontend preview",
+    "test": "pnpm --filter todo_app_frontend test"
+  },
+  "type": "module",
+  "workspaces": [
+    "src/todo_app_frontend"
+  ]
+}

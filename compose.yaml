@@ -1,0 +1,11 @@
+services:
+  icp:
+    build:
+      context: .
+      dockerfile: docker/icp/develop.Dockerfile
+    tty: true
+    volumes:
+      - .:/application
+    ports:
+      - 4943:4943
+      - 3000:3000
