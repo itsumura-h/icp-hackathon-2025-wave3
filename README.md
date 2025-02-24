@@ -54,7 +54,7 @@ todo_app/src/todo_app_frontend/package.json
   "scripts": {
     "dev": "vite --mode develop --host 0.0.0.0 --port 3000",
     "build": "vite --mode production build",
-		"preview": "vite preview --host 0.0.0.0 --port 3000"
+    "preview": "vite preview --host 0.0.0.0 --port 3000"
   }
 }
 ```
